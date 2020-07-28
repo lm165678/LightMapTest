@@ -1,0 +1,20 @@
+Material MyMaterial : Common/MatDefs/Light/Lighting.j3md {
+
+    MaterialParameters {
+      ParallaxHeight : 0.05
+      SeparateTexCoord : true
+      BackfaceShadows : true
+      LightMap : "Textures/LightScene3_shadow_lightmap_0.png"
+      Specular : 0.5 0.5 0.5 1.0
+        DiffuseMap : "Textures/terrain-texture/Rock4.png"
+        Diffuse : 0.5 0.5 0.5 1
+        Ambient : 0.2 0.2 0.2 1
+        Shininess : 128.0
+        UseMaterialColors : true
+        NormalMap : "Textures/terrain-texture/Rock4_NRM.png"
+    }
+
+    AdditionalRenderState {
+      PointSprite On
+    }
+}
